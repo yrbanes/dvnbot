@@ -40,7 +40,7 @@ def execute_read_query(connection, query):
 
 
 gid = '202590390'
-token = '9f5a73d994028dacf3390f7964aaf9b3ab3f52059d797d15ce91b8540aebd60c8ef0b13ebfbcc54cf1fab'
+token = 'BOT_TOKEN'
 vk_session = vk_api.VkApi(token=token)
 session_api = vk_session.get_api()
 longpool = VkLongPoll(vk_session)
